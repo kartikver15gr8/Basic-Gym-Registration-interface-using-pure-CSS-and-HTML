@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bg.jpg');
+
+        }
+
+        .left {
+            color: rgb(18, 188, 218);
+            display: inline-block;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+
+        .center {
+            /* border: 2px solid rgb(228, 217, 217); */
+            color: rgb(18, 188, 218);
+            display: block;
+            margin: 20px auto;
+            width: 34%;
+        }
+
+        .right {
+            color: rgb(18, 188, 218);
+            display: inline-block;
+            position: absolute;
+            right: 10px;
+            top: 20px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 0px 18px;
+            font-size: 18px;
+        }
+
+        .text {
+            font-size: 20px;
+            font-style: 'Roboto Condensed', sans-serif;
+            color: grey;
+            position: absolute;
+            top: 83px;
+            left: -2px;
+            display: inline-block;
+
+
+        }
+
+        .btn {
+            padding: 0px;
+            color: rgb(255, 255, 255);
+            background-color: #4d4848;
+            border: 2px solid white;
+            border-radius: 18px;
+            margin: 0px 4px;
+            padding: 6px;
+            cursor: pointer;
+        }
+
+        .btnn {
+            padding: 0px;
+            color: rgb(255, 255, 255);
+            background-color: #4d4848;
+            border: 2px solid white;
+            border-radius: 18px;
+            margin: 0px 116px;
+            padding: 7px 126px;
+
+            cursor: pointer;
+        }
+
+
+
+        .btn:hover {
+            background-color: rgba(15, 14, 14, 0.589);
+            color: rgb(87, 82, 82);
+        }
+
+        .btnn:hover {
+            background-color: rgba(15, 14, 14, 0.589);
+            color: rgb(87, 82, 82);
+
+        }
+
+        a:hover {
+            color: rgb(148, 146, 142);
+        }
+
+        .navbar li {
+            font-family: 'Rubik', sans-serif;
+            display: inline-block;
+        }
+
+        img {
+            width: 93px;
+            border-radius: 130px;
+            border: 4px solid grey;
+        }
+
+        .container {
+            margin: 122px 93px;
+            color: white;
+            padding: 34px;
+            display: inline-block;
+            width: 30%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        
+        .inp input {
+            text-align: center;
+            display: block;
+            width: 369px;
+            padding: 7px;
+            /* border: 2px solid grey;
+            border-radius: 10px; */
+            margin: 21px auto;
+        }
+        
+        .fill {
+            color: wheat;
+            border: 2px solid rgb(92, 89, 89);
+            background-color: black;
+            border-radius: 5px;
+            font-family: 'Baloo 2', cursive;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo2.jpg" alt="">
+            <p class="text">My fitness</p>
+        </div>
+        <!-- center box for navbar -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Book now</a></li>
+            </ul>
+        </div>
+        <!-- right box for search panel or some extra buttons -->
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1 class="heading">Welcome to the best gym!</h1>
+        <form action="nothing.php">
+            <div class="inp">
+                <input type="text" name="" class="fill" placeholder="Enter your name">
+            </div>
+            <div class="inp">
+                <input type="text" name="" class="fill" placeholder="Enter your gender">
+            </div>
+            <div class="inp">
+                <input type="text" name="" class="fill" placeholder="Enter your Address">
+            </div>
+            <div class="inp">
+                <input type="text" name="" class="fill" placeholder="Enter your Email">
+            </div>
+            <button class="btnn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+
+</html>
